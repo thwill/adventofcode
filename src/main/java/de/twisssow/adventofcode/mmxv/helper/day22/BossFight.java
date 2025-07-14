@@ -25,7 +25,7 @@ public class BossFight {
 
         if (playerTurn) {
             if (hardFight) {
-                // hart fight: player loses 1 hit point
+                // hard fight: player loses 1 hit point
                 state.playerHitPoints--;
                 if (state.playerHitPoints <= 0) {
                     return; // player dies
