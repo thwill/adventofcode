@@ -1,4 +1,4 @@
-package de.twisssow.adventofcode.mmxv;
+package de.twisssow.adventofcode.mmxv.helper;
 
 import java.util.ArrayList;
 import java.util.List;
