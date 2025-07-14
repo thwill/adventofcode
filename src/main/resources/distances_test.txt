@@ -1,0 +1,6 @@
+London to Dublin = 10
+London to Belfast = 20
+London to Edinburgh = 30
+Dublin to Belfast = 15
+Dublin to Edinburgh = 25
+Belfast to Edinburgh = 35
