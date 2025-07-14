@@ -14,8 +14,7 @@ public class TurnAndReturn {
 
     int usedMana;
 
-    public RoundResult doTurn(Set<Spell> availableSpells, Set<Spell> activeSpells) {
-                               int playerHitPoints, int bossHitPoints, int playerMana, int usedMana) {
+    public RoundResult doTurn(Set<Spell> availableSpells, Set<Spell> activeSpells, int playerHitPoints, int bossHitPoints, int playerMana, int usedMana) {
         // Implement the logic for the turn here
         // This method should return RoundResult based on the game state after the turn
 
@@ -28,8 +27,7 @@ public class TurnAndReturn {
             // Continue the game
             return RoundResult.CONTINUE;
         }
-    };
-
-
+    }
 
 }
+
