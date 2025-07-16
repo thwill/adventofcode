@@ -2,7 +2,7 @@ package de.twisssow.adventofcode.mmxv;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 
 import java.util.List;
 
@@ -73,7 +73,7 @@ public class Day12 {
 
     public static void main(String[] args) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
-        List<String> lines = LineReader.readInputFile("account.json");
+        List<String> lines = LineReader.readInputFile("mmxv/account.json");
         System.out.println(lines.size());
         String line = lines.get(0);
         int sum = sumNumbersOutsideQuotes(line);

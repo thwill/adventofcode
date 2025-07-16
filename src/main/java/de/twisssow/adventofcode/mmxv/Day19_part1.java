@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.mmxv.helper.day19.Replacement;
 
 import java.util.ArrayList;
@@ -43,7 +43,7 @@ public class Day19_part1 {
 
         Set<Replacement> replacements = new HashSet<>();
         Set<String> allResults = new HashSet<>();
-        List<String> lines = LineReader.readInputFile("replacements.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/replacements.txt");
         //String input = "HOHOHO";
         String input = "CRnSiRnCaPTiMgYCaPTiRnFArSiThFArCaSiThSiThPBCaCaSiRnSiRnTiTiMgArPBCaPMgYPTiRnFArFArCaSiRnBPMgArPRnCaPTiRnFArCaSiThCaCaFArPBCaCaPTiTiRnFArCaSiRnSiAlYSiThRnFArArCaSiRnBFArCaCaSiRnSiThCaCaCaFYCaPTiBCaSiThCaSiThPMgArSiRnCaPBFYCaCaFArCaCaCaCaSiThCaSiRnPRnFArPBSiThPRnFArSiRnMgArCaFYFArCaSiRnSiAlArTiTiTiTiTiTiTiRnPMgArPTiTiTiBSiRnSiAlArTiTiRnPMgArCaFYBPBPTiRnSiRnMgArSiThCaFArCaSiThFArPRnFArCaSiRnTiBSiThSiRnSiAlYCaFArPRnFArSiThCaFArCaCaSiThCaCaCaSiRnPRnCaFArFYPMgArCaPBCaPBSiRnFYPBCaFArCaSiAl";
 
@@ -67,7 +67,7 @@ public class Day19_part1 {
             }*/
             allResults.addAll(results);
         }
-        System.out.println("All results:" + allResults.size());
+        System.out.println("All results: " + allResults.size());
 
     }
 }

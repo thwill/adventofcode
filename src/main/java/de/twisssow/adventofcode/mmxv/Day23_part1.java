@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.mmxv.helper.day23.Instruction;
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class Day23_part1 {
         List<Instruction> instructions = new ArrayList<>();
 
         // Read instructions from file
-        List<String> lines = LineReader.readInputFile("instructions.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/instructions.txt");
         for (int i = 0; i < lines.size(); i++) {
             instructions.add(new Instruction(lines.get(i)));
         }

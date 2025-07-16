@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.Permutator;
+import de.twisssow.adventofcode.common.LineReader;
+import de.twisssow.adventofcode.common.Permutator;
 import de.twisssow.adventofcode.mmxv.helper.day9.Route;
 import de.twisssow.adventofcode.mmxv.helper.day9.Strecke;
 
@@ -19,7 +19,7 @@ public class Day9 {
         Set<String> locations = new HashSet<>();
         Set<Route> routes = new TreeSet<>();
         Map<Strecke, Integer> distances = new HashMap<Strecke, Integer>();
-        List<String> lines = LineReader.readInputFile("distances.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/distances.txt");
 
         for (String line : lines) {
             String[] parts = line.split("=");

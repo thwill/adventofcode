@@ -1,4 +1,4 @@
-package de.twisssow.adventofcode.mmxv.helper;
+package de.twisssow.adventofcode.common;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;

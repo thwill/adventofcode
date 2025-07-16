@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
 
-import de.twisssow.adventofcode.mmxv.helper.TreeSetUtils;
+import de.twisssow.adventofcode.common.TreeSetUtils;
 
 public class Day20_part2 {
 

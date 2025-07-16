@@ -1,8 +1,8 @@
 package de.twisssow.adventofcode.mmxv;
 
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.SubsetCalculator;
+import de.twisssow.adventofcode.common.LineReader;
+import de.twisssow.adventofcode.common.SubsetCalculator;
 import de.twisssow.adventofcode.mmxv.helper.day17.Container;
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ public class Day17 {
     public static void main(String[] args) {
         // Example usage
         Set<Container> containers = new HashSet<>();
-        List<String> lines = LineReader.readInputFile("container_list.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/container_list.txt");
 
 
         int idx = 1;

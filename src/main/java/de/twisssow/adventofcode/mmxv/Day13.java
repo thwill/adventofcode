@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.Permutator;
+import de.twisssow.adventofcode.common.LineReader;
+import de.twisssow.adventofcode.common.Permutator;
 import de.twisssow.adventofcode.mmxv.helper.day13.GuestArrangement;
 import de.twisssow.adventofcode.mmxv.helper.day13.GuestRelations;
 
@@ -14,7 +14,7 @@ public class Day13 {
 
     public static void main(String[] args) {
 
-        List<String> lines = LineReader.readInputFile("relations.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/relations.txt");
         Map<String, GuestRelations> guestRelationsMap = new HashMap<>();
 
         for (String line : lines) {

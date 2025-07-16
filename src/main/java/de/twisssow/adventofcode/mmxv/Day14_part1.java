@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.mmxv.helper.day14.Reindeer;
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class Day14_part1 {
         List<Reindeer> reindeerList = new ArrayList<>();
         Map<Reindeer, Integer> reindeerDistances = new HashMap<>();
 
-        List<String> lines = LineReader.readInputFile("reindeer.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/reindeer.txt");
         for (String line : lines) {
             String[] parts = line.split(" ");
             String name = parts[0];

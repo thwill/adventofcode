@@ -1,7 +1,6 @@
 package de.twisssow.adventofcode.mmxv.helper.day19;
 
-import de.twisssow.adventofcode.mmxv.helper.TreeNode;
-import de.twisssow.adventofcode.mmxv.helper.day19.Replacement;
+import de.twisssow.adventofcode.common.TreeNode;
 
 import java.util.*;
 

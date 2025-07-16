@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 
 import java.util.HashMap;
 import java.util.List;
@@ -41,7 +41,7 @@ public class Day16_part2 {
          */
 
         int countMatch = 0;
-        List<String> lines = LineReader.readInputFile("aunts.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/aunts.txt");
         for (String line : lines) {
             countMatch = 0;
             int idx = line.indexOf(":");

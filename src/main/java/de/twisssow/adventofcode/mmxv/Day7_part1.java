@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.mmxv.helper.day7.AndGate;
 import de.twisssow.adventofcode.mmxv.helper.day7.AndWithSignalInputGate;
 import de.twisssow.adventofcode.mmxv.helper.day7.DirectTransferGate;
@@ -90,7 +90,7 @@ public class Day7_part1 {
 
         Map<String, Wire> wireMap = new HashMap<>();
 
-        List<String> lines = LineReader.readInputFile("circuit.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/circuit.txt");
         lines.forEach(
                 line -> {
                     String[] parts = line.split(" -> ");

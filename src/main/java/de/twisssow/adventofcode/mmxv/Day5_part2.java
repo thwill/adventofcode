@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 
 import java.util.List;
 
@@ -32,7 +32,7 @@ public class Day5_part2 {
 
 
     public static void main(String[] args) {
-        List<String> lines = LineReader.readInputFile("nice.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/nice.txt");
         int niceCount = lines.stream().filter(line -> isNice(line)).mapToInt(line -> 1).sum();
         System.out.println("Number of nice strings: " + niceCount);
     }

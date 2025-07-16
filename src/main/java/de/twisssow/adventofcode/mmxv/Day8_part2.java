@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ public class Day8_part2 {
 
     public static void main(String[] args) {
 
-        List<String> lines = LineReader.readInputFile("strings.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/strings.txt");
         int escapedLength = 0;
         int codeLength = 0;
 

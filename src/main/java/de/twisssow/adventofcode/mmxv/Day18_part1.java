@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.LineReader;
+import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.mmxv.helper.day6.Light;
 import de.twisssow.adventofcode.mmxv.helper.day6.LightGrid;
 
@@ -38,7 +38,7 @@ public class Day18_part1 {
 
     public static void main(String[] args) {
 
-        List<String> lines = LineReader.readInputFile("lightgrid.txt");
+        List<String> lines = LineReader.readInputFile("mmxv/lightgrid.txt");
         LightGrid grid = new LightGrid(lines.size());
 
         for (int i = 0; i < lines.size(); i++) {

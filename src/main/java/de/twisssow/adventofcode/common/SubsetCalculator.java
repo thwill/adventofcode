@@ -1,4 +1,4 @@
-package de.twisssow.adventofcode.mmxv.helper;
+package de.twisssow.adventofcode.common;
 
 import java.util.HashSet;
 import java.util.Set;
