@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.day25.Position;
-import de.twisssow.adventofcode.mmxv.helper.day25.PositionCalculator;
+import de.twisssow.adventofcode.mmxv.day25.Position;
+import de.twisssow.adventofcode.mmxv.day25.PositionCalculator;
 
 public class Day25 {
 

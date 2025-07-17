@@ -2,8 +2,8 @@ package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.common.Permutator;
-import de.twisssow.adventofcode.mmxv.helper.day13.GuestArrangement;
-import de.twisssow.adventofcode.mmxv.helper.day13.GuestRelations;
+import de.twisssow.adventofcode.mmxv.day13.GuestArrangement;
+import de.twisssow.adventofcode.mmxv.day13.GuestRelations;
 
 import java.util.HashMap;
 import java.util.List;

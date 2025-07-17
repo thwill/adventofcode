@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.day23.Instruction;
+import de.twisssow.adventofcode.mmxv.day23.Instruction;
 
 import java.util.ArrayList;
 import java.util.HashMap;

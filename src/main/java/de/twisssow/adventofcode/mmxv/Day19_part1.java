@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.day19.Replacement;
+import de.twisssow.adventofcode.mmxv.day19.Replacement;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.day3.House;
+import de.twisssow.adventofcode.mmxv.day3.House;
 
 import java.util.HashSet;
 import java.util.Set;

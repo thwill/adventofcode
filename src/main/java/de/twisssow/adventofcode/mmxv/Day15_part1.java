@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.day15.Ingredient;
+import de.twisssow.adventofcode.mmxv.day15.Ingredient;
 
 import java.util.ArrayList;
 import java.util.List;

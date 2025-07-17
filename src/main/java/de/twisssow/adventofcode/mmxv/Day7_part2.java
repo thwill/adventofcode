@@ -1,15 +1,15 @@
 package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.day7.AndGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.AndWithSignalInputGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.DirectTransferGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.LeftShiftGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.NotGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.OrGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.RightShiftGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.U16;
-import de.twisssow.adventofcode.mmxv.helper.day7.Wire;
+import de.twisssow.adventofcode.mmxv.day7.AndGate;
+import de.twisssow.adventofcode.mmxv.day7.AndWithSignalInputGate;
+import de.twisssow.adventofcode.mmxv.day7.DirectTransferGate;
+import de.twisssow.adventofcode.mmxv.day7.LeftShiftGate;
+import de.twisssow.adventofcode.mmxv.day7.NotGate;
+import de.twisssow.adventofcode.mmxv.day7.OrGate;
+import de.twisssow.adventofcode.mmxv.day7.RightShiftGate;
+import de.twisssow.adventofcode.mmxv.day7.U16;
+import de.twisssow.adventofcode.mmxv.day7.Wire;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,13 +1,15 @@
 package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.day7.AndGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.AndWithSignalInputGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.DirectTransferGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.NotGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.OrGate;
-import de.twisssow.adventofcode.mmxv.helper.day7.U16;
-import de.twisssow.adventofcode.mmxv.helper.day7.Wire;
+import de.twisssow.adventofcode.mmxv.day7.LeftShiftGate;
+import de.twisssow.adventofcode.mmxv.day7.RightShiftGate;
+import de.twisssow.adventofcode.mmxv.day7.AndGate;
+import de.twisssow.adventofcode.mmxv.day7.AndWithSignalInputGate;
+import de.twisssow.adventofcode.mmxv.day7.DirectTransferGate;
+import de.twisssow.adventofcode.mmxv.day7.NotGate;
+import de.twisssow.adventofcode.mmxv.day7.OrGate;
+import de.twisssow.adventofcode.mmxv.day7.U16;
+import de.twisssow.adventofcode.mmxv.day7.Wire;
 
 import java.util.HashMap;
 import java.util.List;
@@ -74,11 +76,11 @@ public class Day7_part1 {
             } else if (inputs[1].equals("LSHIFT")) {
                 wireMap.computeIfAbsent(inputs[0], Wire::new);
                 wireMap.get(output).setSignalGate(
-                        new de.twisssow.adventofcode.mmxv.helper.day7.LeftShiftGate(wireMap.get(inputs[0]), Integer.parseInt(inputs[2])));
+                        new LeftShiftGate(wireMap.get(inputs[0]), Integer.parseInt(inputs[2])));
             } else if (inputs[1].equals("RSHIFT")) {
                 wireMap.computeIfAbsent(inputs[0], Wire::new);
                 wireMap.get(output).setSignalGate(
-                        new de.twisssow.adventofcode.mmxv.helper.day7.RightShiftGate(wireMap.get(inputs[0]), Integer.parseInt(inputs[2])));
+                        new RightShiftGate(wireMap.get(inputs[0]), Integer.parseInt(inputs[2])));
             } else {
                 throw new IllegalArgumentException("Unknown gate: " + inputs[1]);
             }

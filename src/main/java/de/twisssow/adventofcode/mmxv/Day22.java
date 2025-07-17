@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.day22.BossFight;
-import de.twisssow.adventofcode.mmxv.helper.day22.State;
+import de.twisssow.adventofcode.mmxv.day22.BossFight;
+import de.twisssow.adventofcode.mmxv.day22.State;
 
 public class Day22 {
 

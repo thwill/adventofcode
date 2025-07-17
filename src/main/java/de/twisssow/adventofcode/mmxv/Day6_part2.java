@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.day6.LightGrid;
+import de.twisssow.adventofcode.mmxv.day6.LightGrid;
 
 import java.io.IOException;
 import java.util.List;

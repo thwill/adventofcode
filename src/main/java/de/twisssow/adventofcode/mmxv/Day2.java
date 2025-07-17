@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.day2.Box;
+import de.twisssow.adventofcode.mmxv.day2.Box;
 
 import java.util.List;
 import java.util.stream.Collectors;

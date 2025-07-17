@@ -1,7 +1,7 @@
 package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
-import de.twisssow.adventofcode.mmxv.helper.day14.Reindeer;
+import de.twisssow.adventofcode.mmxv.day14.Reindeer;
 
 import java.util.ArrayList;
 import java.util.HashMap;

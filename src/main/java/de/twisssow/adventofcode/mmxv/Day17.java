@@ -3,7 +3,7 @@ package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.common.SubsetCalculator;
-import de.twisssow.adventofcode.mmxv.helper.day17.Container;
+import de.twisssow.adventofcode.mmxv.day17.Container;
 
 import java.util.ArrayList;
 import java.util.HashSet;

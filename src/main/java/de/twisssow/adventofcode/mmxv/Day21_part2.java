@@ -1,6 +1,6 @@
 package de.twisssow.adventofcode.mmxv;
 
-import de.twisssow.adventofcode.mmxv.helper.day21.EquipmentItem;
+import de.twisssow.adventofcode.mmxv.day21.EquipmentItem;
 
 import java.util.ArrayList;
 import java.util.Arrays;

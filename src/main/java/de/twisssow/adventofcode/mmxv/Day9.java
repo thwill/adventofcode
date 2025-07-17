@@ -2,8 +2,8 @@ package de.twisssow.adventofcode.mmxv;
 
 import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.common.Permutator;
-import de.twisssow.adventofcode.mmxv.helper.day9.Route;
-import de.twisssow.adventofcode.mmxv.helper.day9.Strecke;
+import de.twisssow.adventofcode.mmxv.day9.Route;
+import de.twisssow.adventofcode.mmxv.day9.Strecke;
 
 import java.util.ArrayList;
 import java.util.HashMap;
