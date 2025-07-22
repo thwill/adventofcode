@@ -25,7 +25,6 @@ public class IpV7 {
 
     public boolean supportsSSL() {
         List<String> abaList = findAbaInSupernetSequences();
-
         return abaList.stream()
                         .anyMatch(aba -> hasCorrespondingBabInHypernetSequences(aba.toCharArray()));
     }
