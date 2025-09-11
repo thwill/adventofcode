@@ -1,4 +1,4 @@
-package de.twisssow.adventofcode;
+package de.twisssow.adventofcode.mmxvi;
 
 import de.twisssow.adventofcode.common.LineReader;
 import de.twisssow.adventofcode.mmxvi.day10.Bot;
